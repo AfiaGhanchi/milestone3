@@ -1,0 +1,98 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background: linear-gradient(to bottom, #ff99ff 0%, #66ffff 100%);
+}
+
+h1 {
+    color: midnightblue;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0 0 0.6);
+}
+
+fieldset {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: midnightblue;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    color: darkslategrey;
+}
+
+input,
+textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid gray;
+
+}
+
+button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: darkblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+button:hover {
+    background-color: skyblue;
+    color: midnightblue;
+}
+
+#pro-pic {
+    margin: 0 auto;
+    border: 3px solid gray;
+    box-shadow: rgb(11, 6, 212, 0.3);
+    display: block;
+    object-fit: cover;
+    border-radius: 30%;
+    width: 250px;
+    height: 250px;
+
+}
+
+#resume {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: gainsboro;
+    box-shadow: 0 4px 8px rgb(0 0 0.6);
+}
+
+#resume h3 {
+    color: midnightblue;
+}
